@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(
+        rgb(255, 51, 0),
+        rgb(251, 38, 38)
+    ) 0 100% no-repeat;
+    background-size: 100% 50%;
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.dice-container {
+    width: 400px;
+    padding: 100px;
+    border: 1px solid black;
+    position: absolute;
+    display: flex; 
+    justify-content: space-around;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    box-shadow: 0 15px 35 px rgba(50, 50, 50, 0.2);
+    border-radius: 8px;
+}
+.dice , .dice-two {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #060606;
+    border-radius: 8px;
+    background-color: white;
+    position: relative;
+}
+.dot, .dot-two {
+    width: 15px;
+    height: 15px;
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer {
+    position: absolute;
+    display: block;
+    top: 450px; 
+}
+button {
+    width: 150px;
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: #ffffff;
+    color: rgb(250, 6, 6);
+    border: none;
+    cursor: pointer;
+}
+.diceResult {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
