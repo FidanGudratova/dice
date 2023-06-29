@@ -44,15 +44,9 @@ body {
     background-color: white;
     position: relative;
 }
-.dot, .dot-two {
-    width: 15px;
-    height: 15px;
-    background-color: #333;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.dot , .dot-two {
+    padding: 10px;
+    font-size: 50px;
 }
 .footer {
     position: absolute;
@@ -60,19 +54,29 @@ body {
     top: 450px; 
 }
 button {
-    width: 150px;
+    width: 200px;
     height: 50px;
-    padding: 10px 20px;
+    padding: 10px 25px;
     font-size: 30px;
     background-color: #ffffff;
     color: rgb(250, 6, 6);
-    border: none;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px rgb(5, 5, 5);
     cursor: pointer;
 }
-.diceResult {
-    font-size: 24px;
+span {
+    font-size: 26px;
     font-weight: bold;
-    margin-top: 20px;
+}
+.sumDiv {
+    display: flex;
+    position: absolute;
+    margin-top: 360px;
+}
+.diceResult {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
 }
 
 
